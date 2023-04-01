@@ -13,19 +13,23 @@
         body{
             width: 90%;
             margin: auto;
+            font-family: Verdana, Helvetica, sans-serif;
+            color: #444;
         }
 
         h1{
             background-color: orange;
             text-align: center;
-            color: red;
+            color: rgba(241, 64, 64, 0.993);
+            font-size: 46px;
         }
 
         .classe_subtitulo{
             background-color: salmon;
-            padding-left: 5px;
+            padding: 10px;
             color: #cc0000;
-            border-bottom-style: solid ;
+            border-bottom: solid 3px red;
+            font-size: 36px;
         }
 
         span{
@@ -33,7 +37,17 @@
         }
 
         ul{
-            padding-left: 20px;
+            padding-left: 0;
+        }
+        li{
+            list-style-position: inside;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -48,20 +62,20 @@
 
     <h2 class="classe_subtitulo">Experiência profissional</h2>
 
-    <h3><span>UOL</span> - 12/2014 até 02/2015 - 2 meses</h3>
+    <h3><a href="https://www.uol.com.br/" target="_blank">UOL</a> - 12/2014 até 02/2015 - 2 meses</h3>
 
     <h4>Analista Programador - 2 meses</h4>
 
     <p>Desenvolvimento de aplicações web com HTML, CSS, AngularJS, Javascript, Ajax, Rest, JSON, PHP.</p>
 
-    <h3><span>Terra</span> - 1 ano</h3>
+    <h3><a href="https://www.terra.com.br/" target="_blank">Terra</a> - 1 ano</h3>
 
     <h4>Desenvolvedor Front End - 1 ano</h4>
 
     <p>Atuei como Desenvolvedor Front-End Pleno, participando ativamente em todos os projetos da empresa (aplicação WEB, aplicativo Mobile e Portais).</p>
     <p>Trabalhei efetivamente usando tecnologias como HTML5, CSS, AngularJS, Wordpress, PHP, JSON e Javascript.</p>
 
-    <h3><span>G1</span> - 6 meses</h3>
+    <h3><a href="https://g1.globo.com/" target="_blank">G1</a> - 6 meses</h3>
 
     <h4>Desenvolvedor Front End - 6 meses</h4>
 
@@ -71,12 +85,12 @@
 
     <h3>Graduação em Tecnologia da Informação</h3>
 
-    <p>01/2010 a 12/2012</p>
+    <p class="data">01/2010 a 12/2012</p>
     <p>Faculdade qualquer uma</p>
 
     <h3> Pós-graduação em Projetos computacionais em tecnologias front-end</h3>
 
-    <p>08/2014 a 12/2015</p>
+    <p class="data">08/2014 a 12/2015</p>
     <p>Faculdade qualquer uma</p>
 
     <h2 class="classe_subtitulo">Cursos / Especializações</h2>
